@@ -18,11 +18,10 @@ header ul li{
 /* /HEADER */
 
 /* JUMBOTRON */
-#jumbotron{
+#jumbotron,
+#about{
     background-color: #1abc9c;
 
-    /* debug */
-    height: 500px;
 }
 /* /JUMBOTRON */
 
