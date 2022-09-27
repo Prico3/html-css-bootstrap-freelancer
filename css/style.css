@@ -31,3 +31,16 @@ header ul li{
 }
 
 /* /PORTFOLIO */
+
+
+/* FOOTER */
+
+/* top-footer */
+#top-footer{
+    background-color: #3a546d;
+}
+
+/* bottom-footer */
+#bottom-footer{
+    background-color: #2c3e50;
+}
