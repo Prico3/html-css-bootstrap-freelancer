@@ -1,4 +1,29 @@
+/* UTILITIES */
 
+/* bg-colors */
+.bg-burgundy{
+    background-color: #ba4b63;
+}
+
+.bg-lightblue{
+    background-color: #1ea4b6;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-skyblue{
+    background-color: #1c83c1;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-sand{
+    background-color: #ccb2a3;
+}
 
 
 
@@ -25,6 +50,17 @@ header ul li{
 /* JUMBOTRON */
 #jumbotron{
     background-color: #1abc9c;
+
+    /* debug */
     height: 500px;
 }
 /* /JUMBOTRON */
+
+/* PORTFOLIO */
+
+#portfolio .col{
+    border-radius: 20px;
+    /* debug */
+    height: 300px;
+}
+/* /PORTFOLIO */
