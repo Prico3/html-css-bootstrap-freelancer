@@ -3,6 +3,14 @@ html{
 }
 
 
+/* COMMON */
+#jumbotron,
+#portfolio,
+#about,
+#contact-me{
+    padding: 50px 0;
+}
+
 
 /* HEADER */
 header{
@@ -27,7 +35,10 @@ header ul li{
 #jumbotron,
 #about{
     background-color: #1abc9c;
+}
 
+#jumbotron img{
+    height: 200px;
 }
 /* /JUMBOTRON */
 
@@ -38,6 +49,19 @@ header ul li{
 
 /* /PORTFOLIO */
 
+/* CONTACT ME */
+#contact-me .form-control{
+    border: none;
+    border-bottom: 1px solid grey;
+    border-radius: 0;
+}
+#contact-me .ms-text-area{
+    min-height: calc(1.5em + 10.75rem + 2px)
+}
+
+
+
+/* /CONTACT ME */
 
 /* FOOTER */
 
