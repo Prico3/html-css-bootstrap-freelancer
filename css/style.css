@@ -7,10 +7,17 @@ html{
 #jumbotron,
 #portfolio,
 #about,
-#contact-me{
+#contact-me,
+#top-footer,
+#bottom-footer{
     padding: 50px 0;
 }
 
+
+ul li{
+    list-style-type: none;
+    margin-right: 20px;
+}
 
 /* HEADER */
 header{
@@ -24,10 +31,6 @@ header a{
     color: inherit;
 }
 
-header ul li{
-    list-style-type: none;
-    margin-right: 20px;
-}
 
 /* /HEADER */
 
@@ -49,6 +52,14 @@ header ul li{
 
 /* /PORTFOLIO */
 
+/* ABOUT */
+#about .btn{
+    color: white;
+    border: 1px solid white;
+}
+/* /ABOUT */
+
+
 /* CONTACT ME */
 #contact-me .form-control{
     border: none;
@@ -57,6 +68,11 @@ header ul li{
 }
 #contact-me .ms-text-area{
     min-height: calc(1.5em + 10.75rem + 2px)
+}
+
+#contact-me .btn{
+    background-color: #1abc9c;
+    border: #1abc9c;
 }
 
 
@@ -70,6 +86,21 @@ header ul li{
     background-color: #3a546d;
 }
 
+#top-footer a{
+    color: white;
+
+}
+#top-footer i{
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+}
+
+#top-footer .ms-a{
+    color: #1abc9c;
+}
 /* bottom-footer */
 #bottom-footer{
     background-color: #2c3e50;
